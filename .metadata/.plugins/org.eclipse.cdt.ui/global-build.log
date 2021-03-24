@@ -1,0 +1,580 @@
+Info: Nothing to build for try
+21:19:58 **** Clean-only build of configuration Debug for project MyFirstProject ****
+rm -rf MyFirstProject.exe main.o main.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\bin;C:\MinGW\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+21:20:00 **** Clean-only build of configuration Debug for project MyFirstProject ****
+Info: Nothing to build for ANSHUL
+21:20:01 **** Rebuild of configuration Debug for project MyFirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o MyFirstProject.exe main.o 
+21:20:06 **** Rebuild of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o trying.o "..\\trying.cpp" 
+g++ -o try.exe trying.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:20:48 **** Clean-only build of configuration Debug for project try ****
+rm -rf try.exe trying.d trying.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+21:20:49 **** Clean-only build of configuration Debug for project try ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+21:20:49 **** Rebuild of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o trying.o "..\\trying.cpp" 
+g++ -o try.exe trying.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:22:54 **** Clean-only build of configuration Debug for project try ****
+rm -rf try.exe trying.d trying.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\bin;C:\MinGW\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+21:22:56 **** Clean-only build of configuration Debug for project try ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+21:22:56 **** Rebuild of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o trying.o "..\\trying.cpp" 
+g++ -o try.exe trying.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for MyFirstProject
+21:30:40 **** Clean-only build of configuration Debug for project try ****
+rm -rf 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\bin;C:\MinGW\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+21:30:41 **** Clean-only build of configuration Debug for project try ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+Info: Nothing to build for try
+Info: Nothing to build for try
+21:32:25 **** Incremental Build of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o xyz.o "..\\xyz.cpp" 
+g++ -o try.exe xyz.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:33:10 **** Clean-only build of configuration Debug for project try ****
+rm -rf xyz.d try.exe xyz.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\bin;C:\MinGW\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+21:33:10 **** Clean-only build of configuration Debug for project try ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+21:33:10 **** Rebuild of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o xyz.o "..\\xyz.cpp" 
+g++ -o try.exe xyz.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:34:23 **** Clean-only build of configuration Debug for project try ****
+rm -rf xyz.d try.exe xyz.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\bin;C:\MinGW\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+21:34:23 **** Clean-only build of configuration Debug for project try ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+21:34:23 **** Rebuild of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o xyz.o "..\\xyz.cpp" 
+g++ -o try.exe xyz.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:39:46 **** Incremental Build of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o xyz.o "..\\xyz.cpp" 
+g++ -o try.exe xyz.o 
+Info: Nothing to build for try
+21:59:03 **** Incremental Build of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o xyz.o "..\\xyz.cpp" 
+g++ -o try.exe xyz.o 
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+23:58:20 **** Rebuild of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+g++ -o Studentdata.exe stduentrecord.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+23:58:30 **** Incremental Build of configuration Debug for project try ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o xyz.o "..\\xyz.cpp" 
+g++ -o try.exe xyz.o 
+23:58:52 **** Incremental Build of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+..\stduentrecord.cpp: In member function 'void student::output()':
+..\stduentrecord.cpp:31:2: error: no match for 'operator-' (operand type is 'std::ostream' {aka 'std::basic_ostream<char>'})
+ {-
+  ^
+ cout<<endl<<"Roll number of the student is "<<rollno<<endl;
+ ~~~~
+..\stduentrecord.cpp:31:2: note: candidate: 'operator-(int)' <built-in>
+..\stduentrecord.cpp:31:2: note:   no known conversion for argument 1 from 'std::ostream' {aka 'std::basic_ostream<char>'} to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:32:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+ cout<<endl<<"Roll number of the student is "<<rollno<<endl;
+ ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:32:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+ cout<<endl<<"Roll number of the student is "<<rollno<<endl;
+ ^~~~
+00:01:51 **** Clean-only build of configuration Debug for project Studentdata ****
+rm -rf stduentrecord.d Studentdata.exe stduentrecord.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+00:01:52 **** Clean-only build of configuration Debug for project Studentdata ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+00:01:53 **** Rebuild of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+..\stduentrecord.cpp: In member function 'void student::output()':
+..\stduentrecord.cpp:31:2: error: no match for 'operator-' (operand type is 'std::ostream' {aka 'std::basic_ostream<char>'})
+ {-
+  ^
+ cout<<endl<<"Roll number of the student is "<<rollno<<endl;
+ ~~~~
+..\stduentrecord.cpp:31:2: note: candidate: 'operator-(int)' <built-in>
+..\stduentrecord.cpp:31:2: note:   no known conversion for argument 1 from 'std::ostream' {aka 'std::basic_ostream<char>'} to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:32:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+ cout<<endl<<"Roll number of the student is "<<rollno<<endl;
+ ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:32:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+ cout<<endl<<"Roll number of the student is "<<rollno<<endl;
+ ^~~~
+Info: Nothing to build for try
+00:02:11 **** Incremental Build of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+..\stduentrecord.cpp: In member function 'void student::output()':
+..\stduentrecord.cpp:29:2: error: no match for 'operator-' (operand type is 'std::ostream' {aka 'std::basic_ostream<char>'})
+ {-
+  ^
+ cout<<endl<<"Roll number of the student is "<<rollno;
+ ~~~~
+..\stduentrecord.cpp:29:2: note: candidate: 'operator-(int)' <built-in>
+..\stduentrecord.cpp:29:2: note:   no known conversion for argument 1 from 'std::ostream' {aka 'std::basic_ostream<char>'} to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:7:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:30:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+ cout<<endl<<"Roll number of the student is "<<rollno;
+ ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:7:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:30:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+ cout<<endl<<"Roll number of the student is "<<rollno;
+ ^~~~
+00:02:47 **** Incremental Build of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+..\stduentrecord.cpp: In member function 'void student::output()':
+..\stduentrecord.cpp:29:2: error: no match for 'operator-' (operand type is 'std::ostream' {aka 'std::basic_ostream<char>'})
+ {-
+  ^
+ cout<<"Roll number of the student is "<<rollno;
+ ~~~~
+..\stduentrecord.cpp:29:2: note: candidate: 'operator-(int)' <built-in>
+..\stduentrecord.cpp:29:2: note:   no known conversion for argument 1 from 'std::ostream' {aka 'std::basic_ostream<char>'} to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:7:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)'
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:389:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:30:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+ cout<<"Roll number of the student is "<<rollno;
+ ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_algobase.h:67,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\char_traits.h:39,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:40,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iostream:39,
+                 from ..\stduentrecord.cpp:7:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note: candidate: 'template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)'
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stl_iterator.h:1185:5: note:   template argument deduction/substitution failed:
+..\stduentrecord.cpp:30:1: note:   'std::ostream' {aka 'std::basic_ostream<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+ cout<<"Roll number of the student is "<<rollno;
+ ^~~~
+00:03:01 **** Incremental Build of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+g++ -o Studentdata.exe stduentrecord.o 
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+00:10:11 **** Rebuild of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o operators.o "..\\operators.cpp" 
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+00:10:13 **** Incremental Build of configuration Debug for project Studentdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o stduentrecord.o "..\\stduentrecord.cpp" 
+g++ -o Studentdata.exe stduentrecord.o 
+Info: Nothing to build for try
+00:10:27 **** Clean-only build of configuration Debug for project Operators ****
+rm -rf operators.d Operators.exe operators.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+00:10:27 **** Clean-only build of configuration Debug for project Operators ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+00:10:27 **** Rebuild of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o operators.o "..\\operators.cpp" 
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Studentdata
+Info: Nothing to build for try
+00:10:36 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o operators.o "..\\operators.cpp" 
+g++ -o Operators.exe operators.o 
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+Info: Nothing to build for Operators
+Info: Nothing to build for Studentdata
+Info: Nothing to build for SwictchForwhile
+Info: Nothing to build for try
+Info: Nothing to build for Operators
+Info: Nothing to build for Operators
+Info: Nothing to build for SwictchForwhile
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+00:18:19 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o operators.o "..\\operators.cpp" 
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Studentdata
+Info: Nothing to build for SwictchForwhile
+Info: Nothing to build for try
+Info: Nothing to build for SwictchForwhile
+00:18:32 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for SwictchForwhile
+00:19:12 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:21:11 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+00:23:53 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Studentdata
+00:23:53 **** Rebuild of configuration Debug for project switchforwhile ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o switchforwhile.o "..\\switchforwhile.cpp" 
+g++ -o switchforwhile.exe switchforwhile.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for try
+00:24:03 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:25:17 **** Clean-only build of configuration Debug for project switchforwhile ****
+rm -rf switchforwhile.d switchforwhile.o switchforwhile.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+00:25:18 **** Clean-only build of configuration Debug for project switchforwhile ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+00:25:18 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Studentdata
+00:25:19 **** Rebuild of configuration Debug for project switchforwhile ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o switchforwhile.o "..\\switchforwhile.cpp" 
+g++ -o switchforwhile.exe switchforwhile.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for try
+00:25:26 **** Incremental Build of configuration Debug for project switchforwhile ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o switchforwhile.o "..\\switchforwhile.cpp" 
+..\switchforwhile.cpp:65:6: error: 'Contol' has not been declared
+ void Contol::whileloop()
+      ^~~~~~
+..\switchforwhile.cpp: In function 'void whileloop()':
+..\switchforwhile.cpp:68:10: error: 'num2' was not declared in this scope
+  while(i<num2)
+          ^~~~
+..\switchforwhile.cpp:68:10: note: suggested alternative: 'enum'
+  while(i<num2)
+          ^~~~
+          enum
+00:26:47 **** Incremental Build of configuration Debug for project switchforwhile ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o switchforwhile.o "..\\switchforwhile.cpp" 
+g++ -o switchforwhile.exe switchforwhile.o 
+00:29:21 **** Rebuild of configuration Debug for project rangesize ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rangesize.o "..\\rangesize.cpp" 
+g++ -o rangesize.exe rangesize.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+00:29:30 **** Incremental Build of configuration Debug for project rangesize ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rangesize.o "..\\rangesize.cpp" 
+g++ -o rangesize.exe rangesize.o 
+Info: Nothing to build for MyFirstProject
+00:33:10 **** Rebuild of configuration Debug for project storageclass ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o storageclass.o "..\\storageclass.cpp" 
+..\storageclass.cpp: In member function 'void storage::registerstorage()':
+..\storageclass.cpp:51:75: warning: 'n3' is used uninitialized in this function [-Wuninitialized]
+ cout<<endl<<"Value of variable declared as register storage class is : "<<n3<<endl;
+                                                                           ^~
+g++ -o storageclass.exe storageclass.o 
+00:36:21 **** Rebuild of configuration Debug for project friend ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o friend.o "..\\friend.cpp" 
+..\friend.cpp:40:1: error: stray '\' in program
+ \end{lstlisting}
+ ^
+..\friend.cpp:42:1: error: stray '\' in program
+ \newpage
+ ^
+..\friend.cpp:43:1: error: stray '\' in program
+ \section{Call by Value and Call by Reference}
+ ^
+..\friend.cpp:44:1: error: stray '\' in program
+ \begin{lstlisting}
+ ^
+..\friend.cpp:40:2: error: 'end' does not name a type; did you mean 'rand'?
+ \end{lstlisting}
+  ^~~
+  rand
+..\friend.cpp:42:2: error: 'newpage' does not name a type
+ \newpage
+  ^~~~~~~
+..\friend.cpp:44:2: error: 'begin' does not name a type
+ \begin{lstlisting}
+  ^~~~~
+..\friend.cpp:71:5: error: redefinition of 'int main()'
+ int main()
+     ^~~~
+..\friend.cpp:34:1: note: 'int main()' previously defined here
+ main()
+ ^~~~
+..\friend.cpp: In function 'int main()':
+..\friend.cpp:82:45: error: 'endlb' was not declared in this scope
+  cout<<"The original numbers are"<<endl<<a<<endlb<<endl<<endl;
+                                             ^~~~~
+..\friend.cpp:84:4: error: 'class swapv' has no member named 'ref'
+  s.ref(a,b);
+    ^~~
+00:37:26 **** Incremental Build of configuration Debug for project friend ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o friend.o "..\\friend.cpp" 
+g++ -o friend.exe friend.o 
+00:42:07 **** Rebuild of configuration Debug for project callbyvalueref ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o callbyvalueref.o "..\\callbyvalueref.cpp" 
+..\callbyvalueref.cpp: In function 'int main()':
+..\callbyvalueref.cpp:44:45: error: 'endlb' was not declared in this scope
+  cout<<"The original numbers are"<<endl<<a<<endlb<<endl<<endl;
+                                             ^~~~~
+..\callbyvalueref.cpp:46:4: error: 'class swapv' has no member named 'ref'
+  s.ref(a,b);
+    ^~~
+00:43:17 **** Incremental Build of configuration Debug for project callbyvalueref ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o callbyvalueref.o "..\\callbyvalueref.cpp" 
+..\callbyvalueref.cpp: In function 'int main()':
+..\callbyvalueref.cpp:47:49: error: 'endlb' was not declared in this scope
+  cout<<"The original numbers now are"<<endl<<a<<endlb<<endl<<endl;
+                                                 ^~~~~
+00:43:35 **** Incremental Build of configuration Debug for project callbyvalueref ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o callbyvalueref.o "..\\callbyvalueref.cpp" 
+g++ -o callbyvalueref.exe callbyvalueref.o 
+00:46:42 **** Rebuild of configuration Debug for project staticdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o static.o "..\\static.cpp" 
+g++ -o staticdata.exe static.o 
+00:49:14 **** Rebuild of configuration Debug for project constructordestructor ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o cd.o "..\\cd.cpp" 
+g++ -o constructordestructor.exe cd.o 
+00:51:26 **** Rebuild of configuration Debug for project copyconstructor ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o cc.o "..\\cc.cpp" 
+g++ -o copyconstructor.exe cc.o 
+00:59:23 **** Incremental Build of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -o Operators.exe operators.o 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Operators.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:00:16 **** Clean-only build of configuration Debug for project Operators ****
+rm -rf operators.d Operators.exe operators.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\QuickTime\QTSystem;C:\cygwin\bin";C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Program Files\apache-maven-3.5.2\apache-maven\src\bin;%M2_HOME%\bin;%JAVA_HOME%\bin;C:\apache-maven-3.0.4\apache-maven\src;C:\WINDOWS\System32\OpenSSH\;C:\cygwin64;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\ARPAN\AppData\Local\Programs\Python\Python36\;C:\Users\ARPAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;F:\eclipse]
+
+01:00:16 **** Clean-only build of configuration Debug for project Operators ****
+Info: Nothing to build for ANSHUL
+Info: Nothing to build for MyFirstProject
+01:00:17 **** Rebuild of configuration Debug for project Operators ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o operators.o "..\\operators.cpp" 
+g++ -o Operators.exe operators.o 
+Info: Nothing to build for Studentdata
+Info: Nothing to build for callbyvalueref
+Info: Nothing to build for constructordestructor
+Info: Nothing to build for copyconstructor
+Info: Nothing to build for friend
+01:00:21 **** Incremental Build of configuration Debug for project rangesize ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rangesize.o "..\\rangesize.cpp" 
+g++ -o rangesize.exe rangesize.o 
+01:00:24 **** Incremental Build of configuration Debug for project staticdata ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o static.o "..\\static.cpp" 
+g++ -o staticdata.exe static.o 
+Info: Nothing to build for storageclass
+Info: Nothing to build for switchforwhile
+Info: Nothing to build for try
+Info: Nothing to build for Operators
+01:03:43 **** Rebuild of configuration Debug for project matrix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mat.o "..\\mat.cpp" 
+g++ -o matrix.exe mat.o 
+01:08:05 **** Rebuild of configuration Debug for project operatoroverloading ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o oo.o "..\\oo.cpp" 
+..\oo.cpp: In member function 'int overload::operator==(overload)':
+..\oo.cpp:67:8: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+ if(num1=d2.num1 && num2==d2.num2)
+    ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o operatoroverloading.exe oo.o 
+01:11:27 **** Rebuild of configuration Debug for project multilevellInheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mi.o "..\\mi.cpp" 
+g++ -o multilevellInheritance.exe mi.o 
+01:15:06 **** Rebuild of configuration Debug for project VirtualPTRINHERITANCE ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o virtualptr.o "..\\virtualptr.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o virtual.o "..\\virtual.cpp" 
+g++ -o VirtualPTRINHERITANCE.exe virtual.o virtualptr.o 
+01:20:02 **** Rebuild of configuration Debug for project HeirarchicalInheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hi.o "..\\hi.cpp" 
+g++ -o HeirarchicalInheritance.exe hi.o 
+01:26:36 **** Incremental Build of configuration Debug for project HeirarchicalInheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hi.o "..\\hi.cpp" 
+g++ -o HeirarchicalInheritance.exe hi.o 
+Info: Nothing to build for callbyvalueref

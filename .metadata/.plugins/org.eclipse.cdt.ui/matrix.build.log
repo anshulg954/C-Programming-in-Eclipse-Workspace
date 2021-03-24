@@ -1,0 +1,7 @@
+01:03:43 **** Rebuild of configuration Debug for project matrix ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mat.o "..\\mat.cpp" 
+g++ -o matrix.exe mat.o 
+
+01:03:47 Build Finished. 0 errors, 0 warnings. (took 4s.242ms)
+

@@ -1,0 +1,7 @@
+01:11:27 **** Rebuild of configuration Debug for project multilevellInheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mi.o "..\\mi.cpp" 
+g++ -o multilevellInheritance.exe mi.o 
+
+01:11:29 Build Finished. 0 errors, 0 warnings. (took 1s.959ms)
+
